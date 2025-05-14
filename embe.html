@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chào mừng Bé Cưng</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #FFF0F5;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      border: 1px solid #FFB6C1;
+      background-color: white;
+    }
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .menu {
+      background-color: #FFDDEE;
+      padding: 10px;
+      border-top: 2px solid #FFB6C1;
+      border-bottom: 2px solid #FFB6C1;
+      display: flex;
+      justify-content: space-between;
+    }
+    .menu a {
+      color: #FF1493;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+    .main {
+      display: flex;
+    }
+    .sidebar {
+      width: 25%;
+      border-right: 2px dashed #FFC0CB;
+      background-color: #FFFAFA;
+      padding: 10px;
+    }
+    .sidebar ul {
+      padding-left: 20px;
+    }
+    .sidebar a {
+      color: #FF69B4;
+      text-decoration: none;
+    }
+    .content-area {
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+    }
+    .highlight-title {
+      border-bottom: 3px solid #FF69B4;
+      padding: 10px;
+      background-color: #FFF8F8;
+    }
+    .highlight-title img {
+      height: 18px;
+      vertical-align: middle;
+    }
+    .articles {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .article {
+      width: 50%;
+      padding: 10px;
+    }
+    .article img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .more {
+      padding: 10px;
+    }
+    .more img {
+      height: 20px;
+      vertical-align: middle;
+    }
+    .others {
+      border-top: 3px solid #FF69B4;
+      padding: 10px;
+    }
+    .others ul {
+      padding-left: 20px;
+    }
+    .footer {
+      background-color: #FFDDEE;
+      padding: 10px;
+      border-top: 2px solid #FFB6C1;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+    .footer a {
+      color: #FF1493;
+      margin-left: 5px;
+      text-decoration: none;
+    }
+    img:hover{
+        transform: scale(1.05);
+        transition: 0.3s;
+        filter: brightness(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="banner">
+      <img style="height:250px" src="baby.jpg" alt="banner"/>
+    </div>
+
+    <div class="menu">
+      <div>
+        <a href="">Trang chính</a> |
+        <a href="">Nhật ký Bé</a> |
+        <a href="">Ảnh dễ thương</a> |
+        <a href="">Kỷ niệm đầu tiên</a> |
+        <a href="">Gửi lời chúc</a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="sidebar">
+        <b>Khám phá cùng Bé</b>
+        <ul>
+          <li><a href="">Bé hôm nay</a></li>
+          <li><a href="">Khoảnh khắc đầu đời</a></li>
+          <li><a href="">Gia đình yêu thương</a></li>
+          <li><a href="">Nhật ký lớn lên</a></li>
+        </ul>
+        <b>Nhật ký mới</b>
+        <ul>
+          <li><a href="">Bé vừa chào đời hôm qua!</a></li>
+          <li><a href="">Nụ cười đầu tiên của bé</a></li>
+          <li><a href="">Bé lần đầu gặp ông bà</a></li>
+          <li><a href="">Hôm nay bé được tắm nắng</a></li>
+        </ul>
+      </div>
+
+      <div class="content-area">
+        <div class="highlight-title">
+          <img src="kk.png" />
+          <b>Khoảnh khắc ngọt ngào</b>
+        </div>
+
+        <div class="articles">
+          <div class="article">
+            <img style="height:400px" src="bb1.jpg" />
+            <br />
+            <b>Bé đang nằm ngoan</b><br />
+            <i>Giấc ngủ đầu tiên thật yên bình</i><br />
+            <img src="xct.png"  style="height: 30px;width:33%" />
+          </div>
+
+          <div class="article">
+            <img style="height:400px" src="bb2.jpg" />
+            <br />
+            <b>Chụp cận cảnh gương mặt cưng xỉu</b><br />
+            <i>Đôi mắt tròn xoe đầy ngạc nhiên</i><br />
+            <img src="xct.png"  style="height: 30px;width:33%" />
+          </div>
+
+          <div class="article">
+            <img style="height:400px" src="bb3.jpg" />
+            <br />
+            <b>Bé làm mặt xinh yêu</b><br />
+            <i>Biểu cảm ngộ nghĩnh ai cũng yêu</i><br />
+            <img src="xct.png"  style="height: 30px;width:33%" />
+          </div>
+
+          <div class="article">
+            <img style="height:400px" src="bb4.jpg" />
+            <br />
+            <b>Bé ngủ ngon trong vòng tay yêu thương</b><br />
+            <i>Ôm trọn giấc mơ hồng</i><br />
+            <img src="xct.png" style="height: 30px;width:33%" />
+          </div>
+        </div>
+
+        <div class="more">
+          <img src="kk.png" />
+          <b>Yêu thương quanh bé</b>
+        </div>
+
+        <div class="others">
+          <ul>
+            <li><a href="">Bé cười lần đầu</a></li>
+            <li><a href="">Bé đạp chân tung tăng</a></li>
+            <li><a href="">Bé nghe nhạc cùng mẹ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <b>Bản quyền © 2025 - Hải Đăng Family | Liên hệ ZALO : 0396436954-Hải Đăng</b>
+      <div>
+        Theo dõi:
+        <a href="">Facebook</a> |
+        <a href="">Twitter</a> |
+        <a href="">Instagram</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
